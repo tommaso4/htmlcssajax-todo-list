@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- JQUERY -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JS:MOMENT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- heandlbar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js" charset="utf-8"></script>
+    <!-- HB template -->
+    <script id="card-template" type="text/x-handlebars-template">
+      <div class="card">
+        <ul>
+          <li class="x"><b>X</b></li>
+          <li class="id">{{ id }}</li>
+          <li class="text">{{ text }}</li>
+        </ul>
+      </div>
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <title>Res Card Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Res Card Generator</h1>
+    </header>
+    <div class="input-conteiner">
+      <input class="inp" type="text" name="" value="">
+      <input class="btn" type="button" name="" value="GEN CARD">
+    </div>
+    <div class="wrapper">
+
+    </div>
+  </body>
+</html>
